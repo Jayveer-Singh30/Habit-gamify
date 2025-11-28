@@ -1,0 +1,117 @@
+🎯 Habit Gamify — A Habit Tracking App with XP & Gamification
+
+Habit Gamify is a mobile app built with **Expo (React Native)** that helps users build positive habits using **XP, levels, streaks, and progress tracking**.  
+It motivates users through gamification — every completed habit rewards XP and contributes to their growth.
+
+🚀 Features
+
+✅ Habit Management
+- Add new habits  
+- Delete habits  
+- Daily check-in  
+- Track completed tasks
+
+🏆 Gamification System
+- Earn XP for every completed habit  
+- XP bar updates automatically  
+- Level progression system  
+- Track your streaks
+
+📊 Stats & Progress
+- Shows total habits completed  
+- Shows XP gained  
+- Displays overall progress visually
+
+### 🌗 Smooth UI & UX
+- Minimalistic UI  
+- Clean component structure  
+- Responsive mobile layout  
+
+🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **JavaScript (JS)** | Main programming language |
+| **React Native** | UI components and mobile logic |
+| **Expo** | App bundling, development environment |
+| **React Navigation** | Screen navigation |
+| **AsyncStorage** | Local device storage for habits & XP |
+
+📂 Project Structure
+
+habit-gamify/
+│
+├── App.js
+├── AppNavigator.js
+├── index.js
+├── package.json
+├── package-lock.json
+├── devices.json
+├── theme.js
+│
+├── context/
+│ └── HabitContext.js
+│
+├── components/
+│ ├── AddHabitModal.js
+│ ├── HabitItem.js
+│ ├── XPBar.js
+│
+├── screens/
+│ ├── HomeScreen.js
+│ ├── HabitsScreen.js
+│ ├── StatsScreen.js
+│
+└── README.md
+
+
+
+1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Jayveer-Singh30/habit-gamify.git
+cd habit-gamify
+```
+
+
+2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+3️⃣ Run the App
+```bash
+npx expo start
+```
+
+4️⃣ Open on Device
+
+Install Expo Go on your phone.
+
+Scan the QR code from the terminal/browser.
+
+💡 How It Works (Short Explanation)
+
+Habits are stored locally using AsyncStorage.
+
+When the user completes a habit:
+
+*   XP increases
+*   Progress updates
+*   Stats screen refreshes
+*   UI updates instantly using React Context (HabitContext.js).
+
+Navigation is handled by React Navigation (Stack + Tabs).
+
+🤝 Contribution
+
+Pull requests and suggestions are welcome.
+
+📄 License
+
+This project is for educational and portfolio purposes. You may modify and reuse the code freely.
+
+✨ Developed by [Jayveer Singh]
+
+BCA Student | React Native Learner | Developer
+
+
